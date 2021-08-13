@@ -3,8 +3,9 @@ from mathModel import linearFunction
 import plotly.express as px
 
 st.write(""""
-#My First app
-*Hello *world!*
+#Plot a linear line!
+
+*Hello *world!* Welcome my first app, go ahead and draw a line. Have fun!
 """)
 
 a = st.number_input('Enter a number for the slope', value = 1)
