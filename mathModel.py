@@ -4,9 +4,9 @@ import numpy as np
 '''
 Generate LinearFunction (y = ax + b)
 :parameter
-    :param b: num - intercept
-    :param a: num - slope 
-    :param gridInfo: list - n - [Start End Steps], includes end number
+    : b: num - intercept
+    : a: num - slope 
+    : gridInfo: list - n - [Start End Steps], includes end number
 :return
     pd dataframe: column 1: x, column 2: y
 '''
