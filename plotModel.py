@@ -3,7 +3,16 @@ import pandas as pd
 
 
 class Plot():
+    """
+    Class to plot a linear fuction with plotly.
+    Input:
+        dfResult: pd dataFrame - with columns x and y
+        a: num - slope of the function
+        b: num - intercept of the function
+        gridInfo: list - [Start End Step] of line
 
+    Output: plotly scatter graph with trendline
+    """
     def __init__(self, dfResult, a, b, gridInfo):
        self.modelDf = dfResult
        self.a = a
